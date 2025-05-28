@@ -16,7 +16,8 @@
             bindings =
                 <&macro_press>,
                 <&kp LC(A) &kp NUMBER_1>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LC(A) &kp NUMBER_1>;
 
             label = "TMUX_1";
         };
@@ -27,7 +28,8 @@
             bindings =
                 <&macro_press>,
                 <&kp LC(A) &kp NUMBER_2>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LC(A) &kp NUMBER_2>;
 
             label = "TMUX_2";
         };
@@ -38,7 +40,8 @@
             bindings =
                 <&macro_press>,
                 <&kp LC(A) &kp NUMBER_3>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LC(A) &kp NUMBER_3>;
 
             label = "TMUX_3";
         };
@@ -49,7 +52,8 @@
             bindings =
                 <&macro_press>,
                 <&kp LC(A) &kp NUMBER_4>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LC(A) &kp NUMBER_4>;
 
             label = "TMUX_4";
         };
@@ -60,7 +64,8 @@
             bindings =
                 <&macro_press>,
                 <&kp LC(A) &kp NUMBER_5>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LC(A) &kp NUMBER_5>;
 
             label = "TMUX_5";
         };
