@@ -9,15 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        gnome_win_next: gnome_win_next {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "GNOME_WIN_NEXT";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
