@@ -13,7 +13,10 @@
         tmux_1: tmux_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LC(A) &kp NUMBER_1>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(A) &kp NUMBER_1>,
+                <&macro_release>;
 
             label = "TMUX_1";
         };
@@ -21,7 +24,10 @@
         tmux_2: tmux_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LC(A) &kp NUMBER_2>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(A) &kp NUMBER_2>,
+                <&macro_release>;
 
             label = "TMUX_2";
         };
@@ -29,7 +35,10 @@
         tmux_3: tmux_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LC(A) &kp NUMBER_3>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(A) &kp NUMBER_3>,
+                <&macro_release>;
 
             label = "TMUX_3";
         };
@@ -37,7 +46,10 @@
         tmux_4: tmux_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LC(A) &kp NUMBER_4>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(A) &kp NUMBER_4>,
+                <&macro_release>;
 
             label = "TMUX_4";
         };
@@ -45,7 +57,10 @@
         tmux_5: tmux_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LC(A) &kp NUMBER_5>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(A) &kp NUMBER_5>,
+                <&macro_release>;
 
             label = "TMUX_5";
         };
