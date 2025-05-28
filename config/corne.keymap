@@ -15,6 +15,7 @@
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp P>;
             label = "TMUX_P_WINDOW";
+            wait-ms = <0>;
         };
 
         tmux_n_window: tmux_n_window {
@@ -22,6 +23,7 @@
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp N>;
             label = "TMUX_N_WINDOW";
+            wait-ms = <0>;
         };
 
         gnome_n_window: gnome_n_window {
@@ -29,6 +31,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LEFT_GUI) &kp RIGHT>;
             label = "GNOME_N_WINDOW";
+            wait-ms = <0>;
         };
 
         gnome_p_window: gnome_p_window {
@@ -36,6 +39,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LEFT_GUI) &kp LEFT>;
             label = "GNOME_P_WINDOW";
+            wait-ms = <0>;
         };
     };
 
